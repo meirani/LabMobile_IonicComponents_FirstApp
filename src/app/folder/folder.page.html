@@ -14,8 +14,77 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <!-- Information Section -->
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Nabila Winanda Meirani</ion-card-title>
+        <ion-card-subtitle>H1D022108</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Ini adalah sebuah halaman untuk latihan menggunakan components pada Ionic.
+      </ion-card-content>
+    </ion-card>
   </div>
+
+  <!-- Segment -->
+  <ion-segment>
+    <ion-segment-button value="home">
+      <ion-label>Universitas</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="about">
+      <ion-label>Jenderal</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="settings">
+      <ion-label>Soedirman</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <!-- List -->
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Quick Actions</ion-label>
+    </ion-list-header>
+    
+    <!-- Checkbox -->
+    <ion-item>
+      <ion-label>Sudah Berusia 18?</ion-label>
+      <ion-checkbox slot="end"></ion-checkbox>
+    </ion-item>
+    
+    <!-- Toggle -->
+    <ion-item>
+      <ion-label>Nyalakan Notifikasi</ion-label>
+      <ion-toggle slot="end"></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+  <!-- Kalender -->
+  <ion-item>
+    <ion-label>Pilih Tanggal Lahir</ion-label>
+    <ion-datetime display-format="DD/MM/YYYY"></ion-datetime>
+  </ion-item>
+
+  <!-- Form -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Formulir Biodata</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="stacked">Nama</ion-label>
+        <ion-input placeholder="Nama Kamu"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Zodiak</ion-label>
+        <ion-input type="email" placeholder="Zodiak Kamu"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Kata kata hari ini</ion-label>
+        <ion-textarea placeholder="Kata kata"></ion-textarea>
+      </ion-item>
+      <ion-button expand="block" color="primary">Lets Go!</ion-button>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
