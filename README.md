@@ -1,7 +1,5 @@
 ## Nabila Winanda Meirani
-<br>
 ## H1D022108
-<br>
 ## Praktikum Pemograman Mobile Shift D
 
 ![App Demo](2024-10-30%2017-46-47.gif)
@@ -13,7 +11,7 @@
           <ion-note>nabila.meirani&#64;mhs.unsoed.ac.id</ion-note>
 ```
 
-<br>
+
 ### Langkah selanjutnya adalah membuat component-component pada file folder.page.html component dapat ditemukan di ionic docs
 
 1. Card
@@ -98,7 +96,8 @@
     </ion-card-content>
   </ion-card>
 ```
-<br>
+
+
 ### Terakhir, tambahkan style CSS jika diperlukan, disini saya menggunakan style Css untuk component card. Teks CSS ditulis di file folder.page.css
 ```
 .container {
