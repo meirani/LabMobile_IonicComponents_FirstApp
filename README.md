@@ -5,14 +5,14 @@
 ![App Demo](2024-10-30%2017-46-47.gif)
 
 
-### Pertama-tama saya merubah tulisan pada file app.component.html untuk mengganti tulisan pada side bar
+#### Pertama-tama saya merubah tulisan pada file app.component.html untuk mengganti tulisan pada side bar
 ```
 <ion-list-header>Mei</ion-list-header>
           <ion-note>nabila.meirani&#64;mhs.unsoed.ac.id</ion-note>
 ```
 
 
-### Langkah selanjutnya adalah membuat component-component pada file folder.page.html component dapat ditemukan di ionic docs
+#### Langkah selanjutnya adalah membuat component-component pada file folder.page.html component dapat ditemukan di ionic docs
 
 1. Card
 ```
@@ -98,7 +98,7 @@
 ```
 
 
-### Terakhir, tambahkan style CSS jika diperlukan, disini saya menggunakan style Css untuk component card. Teks CSS ditulis di file folder.page.css
+#### Terakhir, tambahkan style CSS jika diperlukan, disini saya menggunakan style Css untuk component card. Teks CSS ditulis di file folder.page.css
 ```
 .container {
   text-align: center;
